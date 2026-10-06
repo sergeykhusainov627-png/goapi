@@ -1,0 +1,29 @@
+# Сборка и бинарники
+/bin/
+*.exe
+*.test
+*.out
+
+# Переменные окружения и секреты
+.env
+.env.local
+*.pem
+*.key
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Покрытие тестами
+coverage.out
+*.cover
+
+# Локальные данные БД/томов
+/data/
